@@ -5776,6 +5776,11 @@ li.nav-item .btn-white {
   width: 100%;
   color: #f7f7f8;
   padding-top: 1rem; }
+  .cover-2 .navbar-nav {
+    margin: auto;
+    border-bottom: 1px solid #E83C3F; }
+    .cover-2 .navbar-nav .nav-link {
+      color: #f7f7f8; }
   .cover-2 .jumbotron-heading {
     font-size: 2.8rem;
     font-weight: 500; }
@@ -5789,7 +5794,7 @@ li.nav-item .btn-white {
   .cover-2 .btn {
     font-size: 16px;
     line-height: 20px; }
-    .cover-2 .btn .socicon-mail {
+    .cover-2 .btn .icon {
       padding-right: 10px; }
   .cover-2 .cover-container {
     display: table;
@@ -6169,7 +6174,6 @@ li.nav-item .btn-white {
   text-align: center;
   text-decoration: none;
   background: #fff;
-  color: #696b6e;
   border: 0.1rem solid #dfe1e5;
   border-radius: 499rem;
   line-height: 1.5;
@@ -6763,3 +6767,26 @@ li.nav-item .btn-white {
 @media screen and (min-width: 992px) {
   .offset-lg-10 {
     margin-left: 83.33333%; } }
+
+.btn-facebook {
+  color: #fff;
+  background-color: #3b5998;
+  border-color: #3b5998; }
+
+.btn-facebook:hover {
+  color: #fff;
+  background-color: #355088;
+  border-color: #2f4779; }
+
+.btn-facebook:focus, .btn-facebook.focus {
+  box-shadow: 0 0 0 3px rgba(59, 89, 152, 0.5); }
+
+.btn-facebook.disabled, .btn-facebook:disabled {
+  background-color: #3b5998;
+  border-color: #3b5998; }
+
+.btn-facebook:active, .btn-facebook.active,
+.show > .btn-facebook.dropdown-toggle {
+  background-color: #355088;
+  background-image: none;
+  border-color: #2f4779; }
