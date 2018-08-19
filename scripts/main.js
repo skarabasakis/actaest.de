@@ -1,5 +1,5 @@
-//require jquery/dist/jquery.js
-//require popper.js/dist/popper.js
-//require bootstrap/dist/js/bootstrap.js
+//=include jquery/dist/jquery.js
+//include popper.js/dist/popper.js
+//=include bootstrap/dist/js/bootstrap.js
 
 //=include maps.js
