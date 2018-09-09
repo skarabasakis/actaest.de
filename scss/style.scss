@@ -1678,3 +1678,15 @@ li.nav-item {
   background-image: none;
   border-color: #2f4779;
 }
+
+.img-rounded {
+  margin: auto;
+  border-radius: 50%;
+  max-width: 512px;
+}
+
+@media screen and (min-width: 768px) {
+  .img-rounded {
+    max-width: 256px;
+  }
+}
